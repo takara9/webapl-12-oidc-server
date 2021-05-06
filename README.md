@@ -52,6 +52,13 @@ harbor.labo.local/marmot/oidc-auth-server:1.0
 ~~~
 
 
+## TODO
+* docker-compose で手軽に mongodb とoidc-server を起動できるようにする。
+* marmot-coredns に組み込んで、演習環境の一環に加える。
+* LDAPの項目を追加して、実践的な内容にする。
+* webapl-14-api-server-w-oauth と webapl-14-api-server-w-oauth を統合して一個のリポジトリにして、一つのサーバーからSPAアプリを含めて配信するようにする。
+* 統合後は、YAMLを準備して、K8sへデプロイ、ISTIOとの連携が可能な構成にする。
+
 
 
 
